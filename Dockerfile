@@ -3,7 +3,7 @@ FROM python:3.10
 
 
 # 
-WORKDIR api
+WORKDIR /app/api
 
 # 
 COPY requirements.txt .
