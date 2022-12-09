@@ -1,9 +1,9 @@
 FROM python:3.10
 
-RUN /app/api
+RUN api
 
 # 
-WORKDIR /app/api
+WORKDIR api
 
 # 
 COPY requirements.txt .
